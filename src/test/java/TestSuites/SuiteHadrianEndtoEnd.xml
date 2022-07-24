@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Hadrian Exercise">
+    <test name = "Hadrian End to End Test">
+        <classes>
+            <class name="TestCases.TestHadrianExercise">
+                <methods>
+                    <include name="testEndToEnd"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
